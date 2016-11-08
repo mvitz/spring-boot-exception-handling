@@ -15,4 +15,14 @@ public final class MyController {
     public String bar() {
         return "bar";
     }
+
+    @GetMapping("/baz")
+    public String baz() {
+        throw new MyRuntimeException();
+    }
+
+    @GetMapping("/boo")
+    public String boo() {
+        throw new MySecondRuntimeException();
+    }
 }

@@ -10,7 +10,7 @@
   </parent>
 
   <groupId>de.mvitz</groupId>
-  <artifactId>spring-boot-thymeleaf-error</artifactId>
+  <artifactId>spring-boot-exception-handling</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
   <properties>

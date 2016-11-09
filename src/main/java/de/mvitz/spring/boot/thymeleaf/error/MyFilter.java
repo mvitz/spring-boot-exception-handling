@@ -11,7 +11,6 @@ import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 import java.io.IOException;
 
-@Component
 public class MyFilter implements Filter {
 
     public static final ThreadLocal<String> foo = new ThreadLocal<>();
